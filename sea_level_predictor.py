@@ -36,7 +36,6 @@ def draw_plot():
     plt.title('Rise in Sea Level')
     plt.xlabel('Year')
     plt.ylabel('Sea Level (inches)')
-    plt.show()
     
     # Save plot and return data for testing (DO NOT MODIFY)
     plt.savefig('sea_level_plot.png')
